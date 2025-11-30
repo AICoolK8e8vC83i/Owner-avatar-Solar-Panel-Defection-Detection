@@ -115,9 +115,8 @@ $$\to \text{Dropout} \to \text{Add Residual} \to \text{Output}$$
 This project lays the foundation for a robust E2E industrial quality control system. Next steps include:
 
 * **Multi-class Classification:** Expand the model's capability to detect and classify additional defect types (e.g., corrosion, delamination, snail trails).
-* **Instance Segmentation:** Utilize models like **SAM 2** to achieve pixel-level segmentation of defects, which is crucial for repair and quality assessment.
-* **Deployment Optimization:** Convert models to production-ready formats like **ONNX** and optimize inference using **TensorRT**.
-* **Real-time Inference Pipeline:** Develop a complete E2E system for real-time defect detection in a manufacturing or inspection environment.
+* **Instance Segmentation:** Utilize models like **SAM 3** to achieve pixel-level segmentation of defects and conditions, which is crucial for repair and quality assessment.
+* **Deployment Optimization:** Convert models to production-ready formats like **ONNX** and optimize inference using **TensorRT**. Possibly utilize GCP Vertex AI to reduce training time by 30-60% and test our top models by performance (YOLOv12, Custom CNN, SwinTransformerV2) with ONNX and TensorRT
 
 ---
 
